@@ -11,7 +11,7 @@
     //Declaracion de la variable y asignacion de valor.
     $var1 = 'asdasdasd';
     //Determinacion de cantidad de cifras que posee lo introducido.
-    echo 'La cantidad de cifras que posee la variable ' . $var1 .' es de: ' . strlen($var1);
+    echo 'La cantidad de cifras que posee la variable ' . $var1 .' es de : ' . strlen($var1);
     ?>
 </body>
 </html>
