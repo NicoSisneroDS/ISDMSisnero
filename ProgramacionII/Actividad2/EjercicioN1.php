@@ -15,8 +15,8 @@
         <input type="text" placeholder="Escribe tu Apellido" name="nApellido" id="idApellido">
         <input type="submit" value="Enviar" name="nEnviar" id="idEnviar">
     </form>
-<!--PROCESO-->
-<?php
+    <!--PROCESO-->
+    <?php
         if (isset($_POST['nEnviar'])){
             $nombre = $_POST['nNombre'];
             $apellido = $_POST['nApellido'];
