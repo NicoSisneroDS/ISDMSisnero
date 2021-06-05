@@ -34,8 +34,7 @@ Características()
     Desbloquear TELEFONO
     Entrar aplicacion Configuracion
     Buscar Datos del Equipo
-
-
+    Mostrar por pantalla las caracteristicas del equipo tales como: ram, memoria interna, sistema operativo, entre otros.
 
 2)
 
