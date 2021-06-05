@@ -55,6 +55,6 @@ Clase TELEFONO
     Color: Negro
     Compañia: Personal
     
-Una Llamada()
-Un Mensaje()
-Unas Caracteristicas()
+Realizar Llamada()
+Enviar Mensaje()
+Revisar Caracteristicas()
