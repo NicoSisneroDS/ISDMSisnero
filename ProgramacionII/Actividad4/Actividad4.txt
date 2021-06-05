@@ -1,0 +1,60 @@
+1) Definir la Clase COMPUTADORA con lo siguiente:
+- Atributos: Marca, Color, Compañía
+- Métodos: Llamada, Mensaje, Características.
+2) Instanciar 2 OBJETOS y mostrar sus métodos.
+NOTA: La presente actividad es sin el uso de ningún lenguaje de programación, utilizar un editor
+de texto
+
+
+DESARROLLO:
+
+1)
+
+Clase TELEFONO  
+    Marca: ''
+    Color: ''
+    Compañia: ''
+
+Llamada()
+    Desbloquear TELEFONO
+    Entrar aplicacion Contactos
+    Buscar persona a llamar
+    Seleccionar la persona
+    Presionar llamar
+
+Mensaje()
+    Desbloquear TELEFONO
+    Entrar aplicacion Mensajeria
+    Buscar persona a enviar mensaje
+    Seleccionar la persona
+    Escribir mensaje
+    Enviar
+
+Características()
+    Desbloquear TELEFONO
+    Entrar aplicacion Configuracion
+    Buscar Datos del Equipo
+
+
+
+2)
+
+Clase TELEFONO  
+    Marca: Xiaomi 
+    Color: Azul
+    Compañia: Claro
+
+Una Llamada()
+Un Mensaje()
+Unas Caracteristicas()
+
+
+
+Clase TELEFONO  
+    Marca: Samsung
+    Color: Negro
+    Compañia: Personal
+    
+Una Llamada()
+Un Mensaje()
+Unas Caracteristicas()
