@@ -38,7 +38,7 @@ Características()
 
 2)
 
-Clase TELEFONO  
+OBJETO TELEFONO1  
     Marca: Xiaomi 
     Color: Azul
     Compañia: Claro
@@ -49,7 +49,7 @@ Unas Caracteristicas()
 
 
 
-Clase TELEFONO  
+OBJETO TELEFONO2  
     Marca: Samsung
     Color: Negro
     Compañia: Personal
