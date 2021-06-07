@@ -1,0 +1,215 @@
+Parte 01:
+Definir la Clase ANIMAL con lo siguiente:
+    3 (tres) Atributos a su elección.
+    3 (tres) Métodos a su elección.
+Instanciar 2 OBJETOS y mostrar sus métodos.
+
+
+Parte 02:
+Definir la Clase PERRO con lo siguiente:
+    3 (tres) Atributos a su elección.
+    3 (tres) Métodos a su elección.
+Instanciar 2 OBJETOS y mostrar sus métodos.
+
+
+Parte 03:
+Definir una Clase cualquiera a su gusto y definir 3 atributos y 3 métodos.
+Instanciar 2 OBJETOS y mostrar sus métodos.
+
+
+DESARROLLO
+Parte 1:
+
+Clase ANIMAL
+    Nombre: ''
+    Tipo: ''
+    Tamaño: ''
+
+caminar()
+    Centrarse al lugar donde quiere Ir
+    Dar un paso con una pata y luego las otras
+    Coordinar movimientos
+
+detectarcomida()
+    Evaluar si es comida
+    Mirar fijamente 
+    Acercarse hacia el objetivo
+
+digestion()
+    Tragar la comida
+    Procesar la comida en el estomago
+    Absorver los nutrientes de la comida
+    Expulsar los desechos
+
+
+
+ObjetoANIMAL1
+    Nombre: Leon
+    Tipo: Carnivoro
+    Tamaño: Mediano
+
+Ir a caminar()
+Realizar digestion()
+
+
+
+ObjetoANIMAL2
+    Nombre: Jirafa
+    Tipo: Herbivoro
+    Tamaño: Grande
+
+detectarcomida()
+Realizar digestion()
+
+
+
+
+
+Parte 2:
+
+Clase PERRO
+    Color: ''
+    Tamaño: ''
+    Raza: ''
+
+tomarAgua()
+    Acercarse al plato
+    Abrir la boca y sacar la lengua
+    Tomar agua
+
+comer()
+    Acercarse al plato
+    Abrir la boca
+    Empezar a comer la comida
+
+orinar()
+    Ir a un lugar
+    Olfatear
+    Acercarse y levantar la pata
+    Orinar
+
+ObjetoPERRO1
+    Color: Marron
+    Tamaño: Mediano
+    Raza: Cocker
+
+    Ir a Orinar()
+    Ir a Comer()
+
+
+
+ObjetoPERRO2
+    Color: Blanco
+    Tamaño: Chico
+    Raza: Caniche
+
+    Ir a tomarAgua()
+    Ir a comer()
+
+
+
+
+
+Parte 3:
+
+Clase MICROONDAS
+    Color: ''
+    Tamaño: ''
+    Diseño: ''
+
+calentarcomida()
+    Abrir la puerta del microondas
+    Sacar plato del microondas
+    Poner la comida dentro del plato
+    Volver a meter el plato dentro del microondas
+    Cerrar la puerta
+    Seleccionar opcion de calentar
+    Definir tiempo
+    Presionar boton de empezar
+
+descongelar()
+    Abrir la puerta del microondas
+    Sacar plato del microondas
+    Poner la comida dentro del plato
+    Volver a meter el plato dentro del microondas
+    Cerrar la puerta
+    Seleccionar boton de descongelar
+    Definir tiempo
+    Presionar boton de empezar
+
+cocinar()
+    Abrir la puerta del microondas
+    Sacar plato del microondas
+    Poner la comida dentro del plato
+    Volver a meter el plato dentro del microondas
+    Cerrar la puerta
+    Seleccionar boton de cocinar
+    Definir tiempo
+    Presionar boton de empezar
+
+
+
+ObjetoMICROONDAS1
+    Color: Blanco
+    Tamaño: Pequeño
+    Diseño: Botones
+
+Presionar descongelar()
+Presionar calentarcomida()
+
+
+
+ObjetoMICROONDAS2
+    Color: Negro
+    Tamaño: Mediano
+    Diseño: Digital
+
+Presionar cocinar()
+Presionar calentarcomida()
+
+
+
+
+
+Clase IMPRESORA
+    Marca: ''
+    Tamaño: ''
+    Color: ''
+
+
+
+imprimir()
+    Poner hojas para imprimir
+    Seleccionar archivo por computadora
+    Imprimir
+
+escanear()
+    Poner hoja para escanear
+    Seleccionar escanear por computadora
+    Sacar la hoja escaneada
+
+limpiarcabezales()
+    Poner hojas para imprimir
+    Imprimir hoja de prueba
+    Revisar si necesita limpieza 
+    Seleccionar limpiar cabezales por computadora
+    Imprimir nueva hoja de prueba
+
+
+ObjetoIMPRESORA1:
+    Marca: EPSON
+    Tamaño: Mediano
+    Color: Negra
+
+escanear()
+limpizarcabezales()
+
+
+
+ObjetoIMPRESORA2:
+    Marca: HP
+    Tamaño: Mediano
+    Color: Blanco
+
+imprimir()
+escanear()
