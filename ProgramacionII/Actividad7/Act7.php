@@ -1,13 +1,4 @@
 <?php
-    class pagina{
-        //ATRIBUTOS
-        public $cabecera;
-        public $cuerpo;
-        public $piedepagina;
-        //METODOS
-
-    }
-
     class cabecera{
         //ATRIBUTOS
         public $titulo;
