@@ -48,30 +48,25 @@
             }
         }
         function edad($fecha){
-            if(empty($fecha) || !is_numeric($fecha)){
+            $may = 'es mayor de edad';
+            $men = 'es menor de edad';
+            if(empty($fecha)){
                 echo 'La fecha ingresada no es valida o falta completar. ';
             }else{
-                list($año,$mes,$dia) = explode("-",$fecha);
-                if ($año <= 2003){
-                    if($mes <= 6){
-                        if($dia <= 2){
-                            return 'es mayor de edad.';
-                        }else{
-                            return 'es menor de edad.';
-                        }
-                    }else{
-                        return 'es menor de edad.';
-                    }
+                $factual = strtotime('02-06-2003');
+                $fentrada = strtotime($fecha);
+                if($fentrada <= $factual){
+                    return $may;
                 }else{
-                    return 'es menor de edad.';
+                    return $men;
                 }
             }
         }
         
         if(isset($_REQUEST['nSubmit'])){
-            echo 'Tu nombre es: '. valnom($_REQUEST['nNombre1']) . ', tu apellido es: '. valap($_REQUEST['nApellido1']) . ' y ' . edad($_REQUEST['nFecha1']) . '</br>';
-            echo 'Tu padre se llama: '. valnom($_REQUEST['nNombre2']) . ', su apellido es: '. valap($_REQUEST['nApellido2']) . ' y ' . edad($_REQUEST['nFecha2']) . '</br>';
-            echo 'Tu madre se llama: '. valnom($_REQUEST['nNombre3']) . ', su apellido es: '. valap($_REQUEST['nApellido3']) . ' y ' . edad($_REQUEST['nFecha3']) . '</br>';
+            echo valnom($_REQUEST['nNombre1']) . ' ' . valap($_REQUEST['nApellido1']) . ' ' . edad($_REQUEST['nFecha1']) . '</br>';
+            echo valnom($_REQUEST['nNombre2']) . ' ' . valap($_REQUEST['nApellido2']) . ' ' . edad($_REQUEST['nFecha2']) . '</br>';
+            echo valnom($_REQUEST['nNombre3']) . ' ' . valap($_REQUEST['nApellido3']) . ' ' . edad($_REQUEST['nFecha3']) . '</br>';
         }
     ?>
 
