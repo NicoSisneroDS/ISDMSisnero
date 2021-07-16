@@ -1,6 +1,6 @@
 <?php
 
-function br(){
+function saltolinea(){
     echo '</br>';
 }
 
