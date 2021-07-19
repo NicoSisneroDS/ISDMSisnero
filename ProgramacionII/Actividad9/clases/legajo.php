@@ -26,7 +26,7 @@ class legajo{
     }
 
 
-    //SETTERS NOTAS
+    //SETTERS Y GETTER NOTAS Y PROMEDIO
     function setterNotas($nota){
         $this->notas[] = $nota;
     }
@@ -34,6 +34,12 @@ class legajo{
         for ($i=0; $i < count($this->notas); $i++) { 
             echo $this->notas[$i].'-';
         }
+    }
+
+    function promedioNotas(){
+        $suma = array_sum($this->notas);
+        $div = array_key_last($this->notas);
+        echo round(($suma/$div),2).' // ';
     }
 
     //GETTERS DATOS

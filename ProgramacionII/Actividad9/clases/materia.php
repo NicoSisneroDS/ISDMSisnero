@@ -37,9 +37,9 @@ class materia{
     }
 
     function datosAlumno(){
-        echo $this->legajos->getterApAlumno().' ';
-        echo $this->legajos->getterNomAlumno().' ';
-        echo $this->legajos->getterDNIAlumno();
+        echo $this->legajos->getterApAlumno().', ';
+        echo $this->legajos->getterNomAlumno().' // ';
+        echo $this->legajos->getterDNIAlumno().' // ';
     }
 
     //AGREGAR Y MOSTRAR NOTAS Y SITUACION DEL ALUMNOS INSCRIPTOS.
@@ -48,30 +48,23 @@ class materia{
     }
 
     function mostrarNotasDelLegajo(){
-        echo $this->legajos->getterNotas();
+        echo $this->legajos->getterNotas().' // ';
     }
 
     //RETORNO LISTAS
-
-    //TERMINAR DE VER SEPARAR LISTAS REGULARES O NO
-    function RetornarListaRegularizados(){
-        echo $this->legajos->situacion();
-        
+    function RetornarListaSituacion(){
+        echo $this->legajos->situacion().' // ';
     }
-    
-    function RetornarListaPromocionados(){
-        echo $this->legajos->situacion();
 
+
+    //PARTE FINAL
+    function TomarExamen($n){
+        $this->legajos->setterNotas($n).' // ';
     }
 
     function CalcularPromedio(){
-
+        $this->legajos->promedioNotas().' // ';
     }
-
-    function TomarExamen(){
-
-    }
-
 }
 
 
